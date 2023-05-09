@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Hotel & Package</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="fa/css/font-awesome.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
     />
     <link rel="stylesheet" href="style.css" />
+    <title>Hotel Details</title>
   </head>
   <body>
     <div id="wrapper">
@@ -456,9 +457,9 @@
       <section class="travel-view py-4">
         <div class="container">
           <div class="row gap-4">
-            <p class="travel-view-para">
-              <a href=""> Package Details</a> | <a href=""> Hotel Details </a>
-            </p>
+            <h4 class="travel-view-para">
+              | <a href=""> House of Oglodi by Rishi Khanna </a> |
+            </h4>
             <div
               id="carousel_indicators"
               class="carousel slide"
@@ -541,77 +542,37 @@
                 </div>
               </div>
             </div>
-            <h2>Package Details</h2>
-            <div class="travel-view-option">
-              <div class="travel-view-option-box-1">
-                <img src="image/sample1/1.jpg" alt="" />
-                <div class="overlay-1">
-                  <p class="package-days">
-                    <i class="fa fa-inr"></i>
-                    5,000
-                  </p>
-                  <div class="travel-view-btn">
-                    <a href="packagedetails.html">Book Now</a>
+          </div>
+        </div>
+      </section>
+      <section class="package-image-container">
+        <div class="row">
+          <div class="col-12">
+            <div class="package-image-box">
+              <div class="package-image">
+                <img src="image/hotel/1.avif" alt="" />
+                <div class="package-overlay">
+                  <div class="overlay-data">
+                    <span>Delhi</span>
+                    <p>Laxmi Nagar</p>
                   </div>
                 </div>
               </div>
-              <div class="travel-view-option-box">
-                <img src="image/sample1/2.jpg" alt="" />
-                <div class="overlay">
-                  <p class="package-days">
-                    <i class="fa fa-inr"></i>
-                    10,000
-                  </p>
-                  <div class="travel-view-btn">
-                    <a href="packagedetails.html">Book Now</a>
+              <div class="package-image">
+                <img src="image/hotel/2.avif" alt="" />
+                <div class="package-overlay">
+                  <div class="overlay-data">
+                    <span>Delhi</span>
+                    <p>Sarojani Nagar</p>
                   </div>
                 </div>
               </div>
-              <div class="travel-view-option-box">
-                <img src="image/sample1/3.jpg" alt="" />
-                <div class="overlay">
-                  <p class="package-days">
-                    <i class="fa fa-inr"></i>
-                    15,000
-                  </p>
-                  <div class="travel-view-btn">
-                    <a href="packagedetails.html">Book Now</a>
-                  </div>
-                </div>
-              </div>
-              <div class="travel-view-option-box">
-                <img src="image/sample1/4.jpg" alt="" />
-                <div class="overlay">
-                  <p class="package-days">
-                    <i class="fa fa-inr"></i>
-                    5,000
-                  </p>
-                  <div class="travel-view-btn">
-                    <a href="packagedetails.html">Book Now</a>
-                  </div>
-                </div>
-              </div>
-              <div class="travel-view-option-box">
-                <img src="image/sample1/5.jpg" alt="" />
-                <div class="overlay">
-                  <p class="package-days">
-                    <i class="fa fa-inr"></i>
-                    10,000
-                  </p>
-                  <div class="travel-view-btn">
-                    <a href="packagedetails.html">Book Now</a>
-                  </div>
-                </div>
-              </div>
-              <div class="travel-view-option-box-1">
-                <img src="image/sample1/6.jpg" alt="" />
-                <div class="overlay-1">
-                  <p class="package-days">
-                    <i class="fa fa-inr"></i>
-                    15,000
-                  </p>
-                  <div class="travel-view-btn">
-                    <a href="packagedetails.html">Book Now</a>
+              <div class="package-image">
+                <img src="image/hotel/3.avif" alt="" />
+                <div class="package-overlay">
+                  <div class="overlay-data">
+                    <span>Delhi</span>
+                    <p>Nehru Place</p>
                   </div>
                 </div>
               </div>
@@ -619,139 +580,75 @@
           </div>
         </div>
       </section>
-      <section class="hero-section">
-        <div class="hero-section-box">
-          <h2>
-            IF YOU SEEK <br />
-            MERMAIDING
-          </h2>
-          <p>
-            Experience the thrill of mermaiding in the underwater world of
-            Aotearoa New Zealand.
-          </p>
-          <div>
-            <button type="submit" class="hero-section-btn">Submit</button>
+      <section class="package-discription">
+        <div class="diamond-box">
+          <div class="diamond-box-tags">
+            <span class="diamond">
+              <i class="fa fa-diamond"></i>
+              <span>Hidden gem</span>
+            </span>
+            <span class="diamond">
+              <i class="fa fa-inr"></i>
+              <span>5,000</span>
+            </span>
+            <span class="diamond">
+              <i class="fa fa-star"></i>
+              <span>Ratings</span>
+            </span>
+          </div>
+          <div class="diamond-box-button">
+            <button class="btn btn-danger">Book Now</button>
+          </div>
+        </div>
+        <h2>House of Oglodi by Rishi Khanna</h2>
+        <div class="about-hotel">
+          <span> 8 Guest</span> | <span>4 Bedroom</span> |
+          <span> 3 Bathroom</span> |
+          <span>Private Pool</span>
+        </div>
+        <div class="hotel-discription">
+          <h3>Description</h3>
+          <div class="line"></div>
+          <div class="discription-start">
+            <p>
+              Situated in Delhi, 16 km from Kingdom of Dreams, Haritma Resort
+              features accommodation with an outdoor swimming pool, free private
+              parking, a garden and a restaurant. Boasting family rooms, this
+              property also provides guests with a sun terrace. The
+              accommodation provides room service and a 24-hour front desk for
+              guests.Situated in Delhi, 16 km from Kingdom of Dreams, Haritma
+              Resort features accommodation with an outdoor swimming pool, free
+              private parking, a garden and a restaurant. Boasting family rooms,
+              this property also provides guests with a sun terrace. The
+              accommodation provides room service and a 24-hour front desk for
+              guests.
+            </p>
+            <p>
+              Situated in Delhi, 16 km from Kingdom of Dreams, Haritma Resort
+              features accommodation with an outdoor swimming pool, free private
+              parking, a garden and a restaurant. Boasting family rooms, this
+              property also provides guests with a sun terrace. The
+              accommodation provides room service and a 24-hour front desk for
+              guests.
+            </p>
+            <p>
+              Situated in Delhi, 16 km from Kingdom of Dreams, Haritma Resort
+              features accommodation with an outdoor swimming pool, free private
+              parking, a garden and a restaurant. Boasting family rooms, this
+              property also provides guests with a sun terrace. The
+              accommodation provides room service and a 24-hour front desk for
+              guests.
+            </p>
+            <p>
+              MG Road is 17 km from the hotel, while Qutub Minar is 25 km from
+              the property. The nearest airport is Delhi International Airport,
+              9 km from Haritma Resort.
+            </p>
           </div>
         </div>
       </section>
 
-      <section class="hero-tour-place">
-        <div class="hero-tour-place-container">
-          <h2 class="tour-heading">Hotel Package</h2>
-          <br />
-          <div class="hero-tour-place-top">
-            <div class="hero-tour-place-box-1">
-              <img src="image/sample1/1.jpg" alt="" />
-              <div class="tour-overlay">
-                <p class="package-days">
-                  <i class="fa fa-diamond"></i>
-                  Hidden Gem
-                </p>
-                <div class="travel-view-btn">
-                  <a href="hoteldetails.html">Book Now</a>
-                </div>
-              </div>
-            </div>
-            <div class="hero-tour-place-box-1">
-              <img src="image/service/7.jpg" alt="" />
-              <div class="tour-overlay">
-                <p class="package-days">
-                  <i class="fa fa-diamond"></i>
-                  Hidden Gem
-                </p>
-                <div class="travel-view-btn">
-                  <a href="hoteldetails.html">Book Now</a>
-                </div>
-              </div>
-            </div>
-            <div class="hero-tour-place-box">
-              <img src="image/sample1/3.jpg" alt="" />
-              <div class="tour-overlay-1">
-                <p class="package-days">
-                  <i class="fa fa-diamond"></i>
-                  Hidden Gem
-                </p>
-                <div class="travel-view-btn">
-                  <a href="hoteldetails.html">Book Now</a>
-                </div>
-              </div>
-            </div>
-            <div class="hero-tour-place-box">
-              <img src="image/sample1/4.jpg" alt="" />
-              <div class="tour-overlay-1">
-                <p class="package-days">
-                  <i class="fa fa-diamond"></i>
-                  Hidden Gem
-                </p>
-                <div class="travel-view-btn">
-                  <a href="hoteldetails.html">Book Now</a>
-                </div>
-              </div>
-            </div>
-            <div class="hero-tour-place-box-1">
-              <img src="image/service/8.jpg" alt="" />
-              <div class="tour-overlay">
-                <p class="package-days">
-                  <i class="fa fa-diamond"></i>
-                  Hidden Gem
-                </p>
-                <div class="travel-view-btn">
-                  <a href="hoteldetails.html">Book Now</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="py-4 service">
-        <h2>Travelling around New Zealand</h2>
-        <div class="service-container">
-          <div class="service-box">
-            <div class="service-image">
-              <img src="image/service/feature_1.png" alt="" />
-            </div>
-            <div class="service-content">
-              <h3>
-                <a href="">Driving</a>
-              </h3>
-              <p>Get familiar with driving in New Zealand.</p>
-            </div>
-          </div>
-          <div class="service-box">
-            <div class="service-image">
-              <img src="image/service/feature_2.png" alt="" />
-            </div>
-            <div class="service-content">
-              <h3>
-                <a href="">Public Transport</a>
-              </h3>
-              <p>Find out how to get around without hiring a vehicle.</p>
-            </div>
-          </div>
-          <div class="service-box">
-            <div class="service-image">
-              <img src="image/service/feature_3.png" alt="" />
-            </div>
-            <div class="service-content">
-              <h3>
-                <a href="">Accomodation</a>
-              </h3>
-              <p>Explore different accommodation options.</p>
-            </div>
-          </div>
-          <div class="service-box">
-            <div class="service-image">
-              <img src="image/service/feature_4.png" alt="" />
-            </div>
-            <div class="service-content">
-              <h3>
-                <a href="">Domestic Flights</a>
-              </h3>
-              <p>Flights are easy to catch and are no longer than two hours.</p>
-            </div>
-          </div>
-        </div>
-      </section>
+      <section class="package-details"></section>
       <footer>
         <div class="footer-container">
           <div class="footer-box">
@@ -808,6 +705,10 @@
         <div></div>
       </footer>
     </div>
+    <script
+      src="https://kit.fontawesome.com/f50fdb34c0.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="jquery.js"></script>
     <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
