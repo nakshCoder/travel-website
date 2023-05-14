@@ -860,3 +860,98 @@ footer {
 .check-hotel-box li {
   font-size: 0.8rem;
 }
+
+@media screen and (max-width: 400px) {
+  .navbar-brand {
+    width: auto;
+  }
+
+  .footer-container {
+    gap: 20px;
+    flex-direction: column;
+  }
+
+  .footer-box {
+    width: 50%;
+  }
+
+  .footer-box a img {
+    width: 150px;
+  }
+
+  .navbar-expand-lg .navbar-nav {
+    flex-direction: column;
+  }
+
+  .dropdown-menu .navbar-column {
+    width: 35%;
+  }
+
+  .navbar-toggler {
+    background-color: #fff;
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+
+  .travel-view-para {
+    font-size: 1.2rem;
+  }
+
+  .carousel-inner {
+    border-radius: 0px;
+  }
+
+  .package-image {
+    width: 46%;
+  }
+
+  .overlay-data span {
+    font-size: 1.2rem;
+  }
+
+  .package-overlay {
+    border-radius: 0px;
+  }
+
+  .package-image {
+    margin: 10px 0px;
+  }
+
+  .package-image img {
+    border-radius: 0%;
+  }
+
+  .overlay-data p {
+    font-size: 0.9rem;
+  }
+
+  .overlay-data {
+    gap: 2px;
+  }
+
+  .package-box {
+    flex-direction: column;
+  }
+
+  .package-img {
+    width: auto;
+  }
+
+  .package-content {
+    width: auto;
+    gap: 0%;
+  }
+
+  .diamond-box-tags {
+    flex-direction: column;
+    gap: 15px;
+    font-size: 0.9rem;
+  }
+  .para {
+    font-size: 1rem;
+    margin: 15px 0px;
+    line-height: 1.7rem;
+  }
+}
