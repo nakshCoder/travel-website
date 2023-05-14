@@ -539,13 +539,13 @@ footer {
   font-weight: bold;
   font-size: 2rem;
   color: white;
-  font-family: cursive;
+  font-family: sans-serif;
 }
 
 .overlay-data p {
   font-size: 1.2rem;
   color: white;
-  font-family: cursive;
+  font-family: sans-serif;
 }
 
 .overlay-data img {
@@ -850,6 +850,7 @@ footer {
 
 .check-hotel-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -953,5 +954,104 @@ footer {
     font-size: 1rem;
     margin: 15px 0px;
     line-height: 1.7rem;
+  }
+
+  .check-in,
+  .hotel-room-check {
+    width: 100%;
+  }
+
+  .check-rates {
+    padding: 0%;
+  }
+
+  .check-rates-box {
+    border-radius: 0%;
+    height: auto;
+    flex-direction: column;
+  }
+
+  .check-rates-image {
+    width: 100%;
+    height: 100%;
+  }
+
+  .check-rates-content {
+    margin-top: 10px;
+  }
+
+  .checkout {
+    padding: 25px;
+  }
+
+  .check-rates-content p {
+    font-size: 1rem;
+    margin-bottom: 0px;
+  }
+
+  .check-rates-button {
+    margin-top: 10px;
+    width: auto;
+  }
+
+  .check-rates-button button {
+    gap: 10px;
+  }
+
+  .accordion-item:first-of-type .accordion-button {
+    border-radius: 0%;
+  }
+
+  .accordion-body strong {
+    font-weight: 600;
+  }
+
+  .accordion-body p {
+    margin-bottom: 0.4rem;
+  }
+
+  .accordion-body span {
+    font-size: 0.9rem;
+  }
+
+  .hotel-location {
+    width: 100%;
+  }
+
+  .service-box {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .service h2 {
+    font-size: 1.7rem;
+  }
+
+  .hero-section-box h2 {
+    font-size: 2rem;
+  }
+
+  .travel-view-option-box-1 {
+    width: 100%;
+  }
+
+  .travel-view-option-box {
+    width: 47%;
+  }
+
+  .tour-heading {
+    font-size: 1.7rem;
+  }
+
+  .hero-tour-place-box-1 {
+    width: 100%;
+  }
+
+  .hero-tour-place-box {
+    width: 47%;
+  }
+
+  .travel-view-btn a {
+    padding: 10px 33px;
   }
 }
