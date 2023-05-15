@@ -969,11 +969,12 @@ footer {
 }
 
 .check-hotel-box h5 {
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 .check-hotel-box li {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
+  list-style: none;
 }
 
 .check-rates-button a {
@@ -1196,5 +1197,23 @@ footer {
 
   .hotel-details-box {
     width: 100%;
+  }
+
+  .check-hotel-box {
+    width: 100%;
+  }
+
+  .check-hotel-box ul {
+    padding-left: 0px;
+  }
+
+  .hotel-location {
+    width: 90%;
+    margin: auto;
+  }
+
+  .hotel-location-map {
+    width: 98%;
+    margin: auto;
   }
 }
