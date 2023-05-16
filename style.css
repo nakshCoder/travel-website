@@ -1115,7 +1115,8 @@ img {
 
 .your-benifits-container-1 {
   display: flex;
-  gap: 20px;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .your-benifits-box {
@@ -1159,8 +1160,6 @@ img {
   color: #0c9a56;
   text-decoration: none;
 }
-
-/* item */
 
 @media (max-width: 768px) {
   .card-container {
@@ -1398,5 +1397,10 @@ img {
 
   .card-container {
     width: 176px;
+  }
+
+  .your-benifits-box {
+    width: 100%;
+    margin-bottom: 20px;
   }
 }
