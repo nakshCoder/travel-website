@@ -1341,6 +1341,101 @@ img {
   width: 100%;
 }
 
+.odisha-package {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 50px auto;
+}
+
+#detail_carousal {
+  width: 54%;
+}
+
+#detail_carousal .carousel-inner {
+  border-radius: 0%;
+}
+
+.odisha-package-box {
+  width: 35%;
+}
+
+.odisha-package-box ul li {
+  list-style-type: circle;
+}
+
+.download-borchure {
+  align-items: center;
+  margin: 20px 0px;
+  justify-content: space-between;
+  padding: 16px 35px;
+  border-radius: 11px;
+  box-shadow: 0px 0px 12px #eadfdf;
+  display: flex;
+}
+
+.download {
+  color: #0a7bbd;
+}
+
+.download-borchure p {
+  margin-bottom: 0px;
+}
+
+.odisha-map {
+  margin: 30px 0px;
+}
+
+.odisha-highlights h2 {
+  color: #171717;
+}
+
+.for-inquiry {
+  padding: 20px 30px;
+  box-shadow: 0px 0px 13px #dae4df;
+  border-radius: 11px;
+}
+
+.for-inquiry form h2 {
+  color: #171717;
+}
+
+.for-inquiry form p {
+  font-size: 0.9rem;
+  color: #aeb4b9;
+}
+
+.for-inquiry input {
+  background-color: #f0f4f5;
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 15px 10px;
+  margin-bottom: 10px;
+}
+
+.for-inquiry button {
+  background-color: #ff9d04;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+}
+
+.similar-tour {
+  width: 90%;
+  margin: 20px auto;
+}
+
+.similar-tour h2 {
+  color: #171717;
+}
+
+.similar-tour-container {
+  display: flex;
+  justify-content: space-between;
+}
+
 @media (max-width: 768px) {
   .card-container {
     width: 184px;
@@ -1623,5 +1718,46 @@ img {
 
   .choose-spritual-holiday-checkbox td {
     font-size: 0.8rem;
+  }
+
+  .odisha-package {
+    flex-direction: column;
+  }
+
+  #detail_carousal {
+    width: 100%;
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    height: 36%;
+  }
+
+  .download-borchure {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .odisha-package-box {
+    width: 100%;
+  }
+
+  .similar-tour-container {
+    flex-wrap: wrap;
+  }
+
+  .similar-tour-container .diamond {
+    padding: 6px 11px;
+    background-color: #e8f5ee;
+    border-radius: 4px;
+  }
+
+  .similar-tour-container .diamond-box-tags {
+    font-size: 0.8rem;
+  }
+
+  .similar-tour-container .card-container {
+    width: 162px;
+    margin-bottom: 20px;
   }
 }
