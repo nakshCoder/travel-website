@@ -1292,6 +1292,55 @@ img {
   text-decoration: none;
 }
 
+.spritual-holidays {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(image/package/spritual.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spritual-holidays h1 {
+  color: white;
+}
+
+.choose-spritual-holiday {
+  width: 90%;
+  margin: 40px auto;
+}
+
+.choose-spritual-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.choose-spritual-holiday h2 {
+  color: #171717;
+}
+
+.choose-spritual-holiday-image {
+  width: 40%;
+}
+
+.choose-spritual-holiday-checkbox {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.choose-spritual-holiday-checkbox td {
+  font-size: 0.9rem;
+}
+
+.choose-spritual-holiday-checkbox table {
+  width: 100%;
+}
+
 @media (max-width: 768px) {
   .card-container {
     width: 184px;
@@ -1558,5 +1607,21 @@ img {
   .blog-benifits-box {
     width: 100%;
     margin-bottom: 20px;
+  }
+  .choose-spritual-container {
+    flex-direction: column;
+  }
+
+  .choose-spritual-holiday-image {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .choose-spritual-holiday-checkbox {
+    width: 100%;
+  }
+
+  .choose-spritual-holiday-checkbox td {
+    font-size: 0.8rem;
   }
 }
