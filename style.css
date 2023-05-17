@@ -1161,6 +1161,137 @@ img {
   text-decoration: none;
 }
 
+.customer-care {
+  display: flex;
+  justify-content: space-between;
+  width: 86%;
+  margin: 50px auto;
+}
+
+.customer-care-content {
+  width: 70%;
+}
+
+.customer-care-content h3 {
+  color: #171717;
+  margin-bottom: 15px;
+}
+
+.customer-care-button button {
+  padding: 10px 100px;
+  margin: 10px 0px;
+  background-color: #ff9d04;
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+}
+
+.customer-care-image {
+  background-image: url(image/package/customer.jpg);
+  background-position: center;
+  background-size: contain;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.testimonial {
+  width: 86%;
+  margin: 50px auto;
+}
+
+.blog {
+  background: #2c3e50;
+  padding: 40px 0px;
+}
+
+.blog-benifits {
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-benifits-header {
+  text-align: center;
+  line-height: 2rem;
+  margin-bottom: 30px;
+}
+
+.blog-benifits-header p {
+  margin-bottom: 0px;
+  color: #fff;
+}
+
+.blog-benifits-container-1 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 86%;
+  margin: auto;
+}
+
+.blog-benifits {
+  width: 100%;
+  margin: auto;
+}
+
+.blog-benifits-header h2 {
+  color: #fff;
+}
+
+.blog-benifits-body {
+  display: flex;
+  margin-top: 30px;
+}
+
+.blog-benifits-container-1 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.blog-benifits-box {
+  width: 30%;
+  border-radius: 11px;
+  transition: all 0.3s ease-in-out;
+  border: 0.5px solid white;
+}
+
+.blog-benifits-box:hover {
+  transform: translateY(-10px);
+}
+
+.blog-benifits-box-image {
+  border-radius: 11px 11px 0px 0px;
+}
+
+.blog-benifits-box-image img {
+  border-radius: 11px 11px 0px 0px;
+}
+
+.blog-benifits-box-content {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 20px 0px 20px;
+  color: white;
+}
+
+.blog-benifits-box-content p {
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.blog-benifits-box-content span {
+  color: white;
+}
+
+.blog-benifits-box-content p a {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #0c9a56;
+  text-decoration: none;
+}
+
 @media (max-width: 768px) {
   .card-container {
     width: 184px;
@@ -1387,6 +1518,14 @@ img {
     margin: auto;
   }
 
+  .package-one-first {
+    align-items: center;
+  }
+
+  .package-one-first h2 {
+    font-size: 1.3rem;
+  }
+
   .package-image-overlay h5 {
     font-size: 1rem;
   }
@@ -1400,6 +1539,23 @@ img {
   }
 
   .your-benifits-box {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .customer-care {
+    flex-direction: column;
+  }
+
+  .customer-care-content {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .customer-care-image {
+    margin: 26px auto 10px auto;
+  }
+  .blog-benifits-box {
     width: 100%;
     margin-bottom: 20px;
   }
