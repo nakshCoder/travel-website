@@ -24,7 +24,8 @@
 .navbar-expand-lg .navbar-nav {
   flex-direction: row; /* add here col for mobile*/
   width: 100%;
-  justify-content: space-evenly;
+  justify-content: end;
+  gap: 50px;
 }
 
 .nav-item a {
@@ -35,6 +36,31 @@
 .nav-item a:hover {
   color: orange;
   border-radius: 1px solid white !important;
+}
+
+.navbar-index {
+  flex-direction: column;
+  align-items: center;
+}
+
+.navbar-img-index {
+  text-align: center;
+  margin-right: 0px;
+  margin-bottom: 20px;
+}
+
+.navbar-collapse-index {
+  width: 52%;
+}
+
+.nav-link:focus {
+  color: white;
+}
+
+.navbar-package {
+  overflow-y: auto;
+  height: 100vh;
+  overflow-x: hidden;
 }
 
 /* Hero section */
@@ -159,6 +185,14 @@ h2 {
 
 .navbar-brand {
   width: 30%;
+}
+
+.container-index {
+  max-width: 1240px;
+}
+
+.carousel-inner-index {
+  border-radius: 0%;
 }
 
 /* travel option */
@@ -1436,6 +1470,293 @@ img {
   justify-content: space-between;
 }
 
+/* index page contact us */
+
+.contact-us-container {
+  background-color: #171717;
+  width: 100%;
+  padding: 30px 0px;
+}
+
+.contact-us-heading {
+  color: white;
+  background-color: #c41e12cc;
+  display: flex;
+  width: 60%;
+  align-items: center;
+  flex-direction: column;
+  margin: 60px auto;
+  padding: 10px 0px;
+  user-select: none;
+}
+
+.comtact-us-heading h2 {
+  font-size: 2.6rem;
+}
+
+.contact-us-heading p {
+  font-size: larger;
+  color: white;
+}
+
+.contact-us-box {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-us-info {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.location-name,
+.phone-number,
+.mail-id {
+  display: flex;
+  margin: 20px 0px;
+  align-items: center;
+  gap: 20px;
+}
+
+.location-name i,
+.phone-number i,
+.mail-id i {
+  font-size: 2rem;
+  color: #95d4b6;
+}
+
+.location-name span,
+.phone-number span,
+.mail-id span {
+  font-size: 0.9rem;
+  color: white;
+}
+
+.line-2 {
+  height: 0.5px;
+  width: 100%;
+  background-color: #fff;
+}
+
+.phone-number span {
+  font-weight: 500;
+  color: white;
+}
+
+.mail-id span {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.contact-us-form {
+  width: 70%;
+}
+
+.contact-us-form h3 {
+  font-weight: bold;
+  color: #9da1b0;
+}
+
+.office-address,
+.contact-number,
+.contact-mail h5 {
+  color: #9da1b0;
+}
+
+.line-3 {
+  height: 3px;
+  width: 10%;
+  background-color: #e33d26;
+}
+
+.contact-us-form p {
+  padding: 30px 0px;
+  color: white;
+}
+
+.filed-contact input,
+textarea {
+  border: none;
+  outline: none;
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 10px 7px;
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+}
+
+.filed-contact input::placeholder,
+textarea::placeholder {
+  font-size: 0.9rem;
+}
+
+.submit-btn input {
+  width: 20%;
+  border: none;
+  background-color: #e33d26;
+  color: #fff;
+  height: 40px;
+  text-transform: uppercase;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.submit-btn input:hover {
+  background-color: #333;
+}
+
+.hotel-description {
+  width: 90%;
+  margin: 30px auto;
+}
+
+.hotel-description h2 {
+  color: black;
+}
+
+.hotel-description-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hotel-description-content-box {
+  text-align: justify;
+  width: 60%;
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+}
+
+.hotel-description-content-box h2 {
+  font-weight: 400;
+  font-size: x-large;
+}
+
+.hotel-description-content-box h4 {
+  font-weight: 400;
+  font-size: medium;
+}
+
+.facilities-list {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.facilities-box {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+}
+
+.why-us-container {
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.why-us-box {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.circle {
+  border-radius: 50%;
+  padding: 15px 19px;
+  background: aquamarine;
+}
+
+.circle i {
+  font-size: 1.2rem;
+}
+
+.hotel-description-form {
+  width: 30%;
+}
+
+.reservation-login h4 {
+  font-weight: bold;
+  font-size: medium;
+}
+
+.reservation-login {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  box-shadow: 0px 0px 15px #a6a0a0;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+
+.reservation-login div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.reservation-btn {
+  padding: 12px 26px;
+  margin-top: 20px;
+  border: none;
+  background-color: #aae4c9;
+  font-size: 1rem;
+  color: #0c9a56;
+  font-weight: bold;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  box-shadow: 0px 0px 15px #a6a0a0;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+
+.location,
+.call,
+.mail {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.location,
+.call,
+.mail span {
+  font-size: 0.9rem;
+}
+
+.mail i {
+  font-size: 0.8rem;
+}
+
+.contact-us h2 {
+  color: #a6a0a0;
+}
+
+.contact-us-btn {
+  border: none;
+  padding: 7px 66px;
+  background: #aae4c9;
+  color: #0c9a56;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.accordion-body p {
+  text-align: justify;
+}
+
+.check-hotel-box {
+  display: flex;
+  gap: 30px;
+}
+
 @media (max-width: 768px) {
   .card-container {
     width: 184px;
@@ -1760,4 +2081,24 @@ img {
     width: 162px;
     margin-bottom: 20px;
   }
+}
+
+::-webkit-scrollbar {
+  background-color: #bababa;
+  width: 9px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #73e5ae;
+  border-radius: 50px;
+}
+
+.company-about {
+  width: 90%;
+  margin: 30px auto;
+  text-align: justify;
+}
+
+.company-about h2 {
+  color: black;
 }
