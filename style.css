@@ -50,7 +50,7 @@
 }
 
 .navbar-collapse-index {
-  width: 52%;
+  width: 64%;
 }
 
 .nav-link:focus {
@@ -1757,6 +1757,16 @@ textarea::placeholder {
   gap: 30px;
 }
 
+.company-about {
+  width: 90%;
+  margin: 30px auto;
+  text-align: justify;
+}
+
+.company-about h2 {
+  color: black;
+}
+
 @media (max-width: 768px) {
   .card-container {
     width: 184px;
@@ -2078,7 +2088,7 @@ textarea::placeholder {
   }
 
   .similar-tour-container .card-container {
-    width: 162px;
+    width: 157px;
     margin-bottom: 20px;
   }
 
@@ -2152,14 +2162,4 @@ textarea::placeholder {
 ::-webkit-scrollbar-thumb {
   background-color: #171717;
   border-radius: 50px;
-}
-
-.company-about {
-  width: 90%;
-  margin: 30px auto;
-  text-align: justify;
-}
-
-.company-about h2 {
-  color: black;
 }
