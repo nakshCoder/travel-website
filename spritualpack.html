@@ -557,37 +557,35 @@
                 <table class="">
                   <tr>
                     <td>
-                      <input type="checkbox" name="" id="" /> &nbsp; AHMEDABAD
+                      <input class="packageSelected" type="checkbox" name="destination" value="AHMEDABAD" id="AHMEDABAD" /> &nbsp; AHMEDABAD
                     </td>
-                    <td><input type="checkbox" name="" id="" /> &nbsp; PURI</td>
+                    <td><input class="packageSelected" type="checkbox" name="destination" value="PURI" id="PURI" /> &nbsp; PURI</td>
                     <td>
-                      <input type="checkbox" name="" id="" /> &nbsp; BHUBANESWAR
+                      <input class="packageSelected" type="checkbox" name="destination" value="BHUBANESWAR" id="BHUBANESWAR" /> &nbsp; BHUBANESWAR
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><input class="packageSelected" type="checkbox" name="destination" value="AYODHYA" id="AYODHYA" /> &nbsp; AYODHYA</td>
+                    <td><input class="packageSelected" type="checkbox" name="destination" value="LUCKNOW" id="LUCKNOW" /> &nbsp; LUCKNOW</td>
+                    <td>
+                      <input class="packageSelected" type="checkbox" name="destination" value="KUTCH / BHUJ" id="KUTCH / BHUJ" /> &nbsp; KUTCH / BHUJ
                     </td>
                    
                   </tr>
                   <tr>
-                    <td><input type="checkbox" name="" id="" /> &nbsp; AYODHYA</td>
-                    <td><input type="checkbox" name="" id="" /> &nbsp; LUCKNOW</td>
-                    <td>
-                      <input type="checkbox" name="" id="" /> &nbsp; KUTCH / BHUJ
-                    </td>
-                   
+                    <td><input type="checkbox" name="destination" value="SOMNATH" id="SOMNATH" /> &nbsp; SOMNATH</td>
+                    <td><input type="checkbox" name="destination" value="DIU" id="DIU" /> &nbsp; DIU</td>
+                    <td><input type="checkbox" name="destination" value=" SASAN GIR" id=" SASAN GIR" />&nbsp; SASAN GIR</td>
                   </tr>
                   <tr>
-                    <td><input type="checkbox" name="" id="" /> &nbsp; SOMNATH</td>
-                    <td><input type="checkbox" name="" id="" /> &nbsp; DIU</td>
-                    <td><input type="checkbox" name="" id="" />&nbsp; SASAN GIR</td>
-                    
+                    <td><input type="checkbox" name="destination" value=" SASAN GIR" id=" SASAN GIR" />&nbsp; SASAN GIR</td>
+                    <td><input type="checkbox" name="destination" value="BHAVNAGAR" id="BHAVNAGAR" />&nbsp; BHAVNAGAR</td>
+                    <td><input type="checkbox" name="destination" value="KEVADIYA" id="KEVADIYA" />&nbsp; KEVADIYA</td>
                   </tr>
                   <tr>
-                    <td><input type="checkbox" name="" id="" />&nbsp; SASAN GIR</td>
-                    <td><input type="checkbox" name="" id="" />&nbsp; BHAVNAGAR</td>
-                    <td><input type="checkbox" name="" id="" />&nbsp; KEVADIYA</td>
-                  </tr>
-                  <tr>
-                    <td><input type="checkbox" name="" id="" />&nbsp; ALLAHABAD</td>
-                    <td><input type="checkbox" name="" id="" />&nbsp; BODHGAYA</td>
-                    <td><input type="checkbox" name="" id="" /> &nbsp; PURI</td>
+                    <td><input type="checkbox" name="destination" value="ALLAHABAD" id="ALLAHABAD" />&nbsp; ALLAHABAD</td>
+                    <td><input type="checkbox" name="destination" value="BODHGAYA" id="BODHGAYA" />&nbsp; BODHGAYA</td>
+                    <td><input type="checkbox" name="destination" value="PURI" id="PURI" /> &nbsp; PURI</td>
                   </tr>
                 </table>
           </div>
@@ -595,13 +593,13 @@
       </section>
 
       <section class="package-details">
-        <div class="package-container ">
-          <div class="package-box">
+        <div class="package-container locations">
+          <div class="package-box location" data-id="AHMEDABAD" data-category="AHMEDABAD">
             <div class="package-img">
               <img src="image/hotel/1.avif" alt="" />
             </div>
             <div class="package-content">
-              <h4>Odisha Tour Package</h4>
+              <h4 class="packageContentTitle">AHMEDABAD</h4>
               <div class="diamond-box-tags">
                 <div class="diamond-box-tags">
                   <span class="diamond">
@@ -650,12 +648,12 @@
               </div>
             </div>
           </div>
-          <div class="package-box">
+          <div class="package-box location" data-id="PURI" data-category="PURI">
             <div class="package-img">
               <img src="image/hotel/1.avif" alt="" />
             </div>
             <div class="package-content">
-              <h4>Odisha Tour Package</h4>
+              <h4 class="packageContentTitle">PURI</h4>
               <div class="diamond-box-tags">
                 <div class="diamond-box-tags">
                   <span class="diamond">
@@ -703,12 +701,12 @@
               </div>
             </div>
           </div>
-          <div class="package-box">
+          <div class="package-box location" data-id="BHUBANESWAR" data-category="BHUBANESWAR">
             <div class="package-img">
               <img src="image/hotel/1.avif" alt="" />
             </div>
             <div class="package-content">
-              <h4>Odisha Tour Package</h4>
+              <h4 class="packageContentTitle">BHUBANESWAR</h4>
               <div class="diamond-box-tags">
                 <div class="diamond-box-tags">
                   <span class="diamond">
@@ -813,11 +811,12 @@
         </div>
       </footer>
     </div>
+
     <script
       src="https://kit.fontawesome.com/f50fdb34c0.js"
       crossorigin="anonymous"
     ></script>
-    <script src="jquery.js"></script>
+    <script src="jquery-1.12.2.min.js"></script>
     <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- bootstrap CDN links -->

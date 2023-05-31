@@ -2163,3 +2163,11 @@ textarea::placeholder {
   background-color: #171717;
   border-radius: 50px;
 }
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: inline-block;
+}
